@@ -1,0 +1,37 @@
+section.home{
+   margin: 0 auto;
+   width: 100%;
+   height: auto;
+   padding: 0 !important;
+   overflow: hidden;
+}
+.slider-content{
+   width: 400%;
+   height: auto;
+   display: flex;
+}
+.slider-content input{
+   display: none;
+}
+.slide-box{
+   width: 25%;
+   height: auto;
+   position: relative;
+   text-align: center;
+   transition: 1s;
+}
+.slide-box img{
+   width: 100%;
+}
+#radio1:checked ~ .primeiro{
+   margin-left: 0%;
+}
+#radio2:checked ~ .primeiro{
+   margin-left: -25%;
+}
+#radio3:checked ~ .primeiro{
+   margin-left: -50%;
+}
+#radio4:checked ~ .primeiro{
+   margin-left: -75%;
+}
